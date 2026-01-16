@@ -44,7 +44,6 @@ const event3 = generateTimestamps(500, { days: 2 });
 const event4 = generateTimestamps(1000, { weeks: 1 });
 const event5 = generateTimestamps(1000, { months: 2 });
 const event6 = generateTimestamps(300, { weeks: 1, hours: 6 });
-
 module.exports = {
   generateTimestamps,
 };
